@@ -23,4 +23,4 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install lightfm --use-pep517 --disable-pip-version-check --no-deps --no-cache-dir --no-binary lightfm
+          pip install lightfm --disable-pip-version-check --no-deps --no-cache-dir --no-binary lightfm
